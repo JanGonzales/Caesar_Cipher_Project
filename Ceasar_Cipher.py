@@ -41,4 +41,4 @@ while restart is True:
             os.system('clear')
     elif user_restart == "n":
         print("Good Bye!")
-        x = False
+        restart = False
